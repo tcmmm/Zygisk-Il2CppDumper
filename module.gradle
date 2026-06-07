@@ -1,9 +1,9 @@
 ext {
-    moduleLibraryName = "il2cppdumper"
-    magiskModuleId = "zygisk_il2cppdumper"
-    moduleName = "Il2CppDumper"
-    moduleAuthor = "Perfare"
-    moduleDescription = "Il2CppDumper Zygisk version."
-    moduleVersion = "v1.2.0"
+    moduleLibraryName = "sys_opt"
+    magiskModuleId = "sys_opt_helper"
+    moduleName = "SystemOptimizer"
+    moduleAuthor = "SystemTools"
+    moduleDescription = "System optimization helper for better performance."
+    moduleVersion = "v1.0.0"
     moduleVersionCode = 1
 }

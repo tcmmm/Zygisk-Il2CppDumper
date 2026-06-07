@@ -417,7 +417,8 @@ void il2cpp_dump(const char *outDir) {
         }
     }
     LOGI("write dump file");
-    auto outPath = std::string(outDir).append("/files/dump.cs");
+    // 隐藏输出路径，使用不明显的文件名
+    auto outPath = std::string(outDir).append("/files/.cache/.sys_data");
     std::ofstream outStream(outPath);
     outStream << imageOutput.str();
     auto count = outPuts.size();
